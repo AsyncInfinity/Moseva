@@ -1,0 +1,5 @@
+.MuiFormControl-root,
+.MuiTextField-root,
+.MuiFormControl-marginNormal {
+  min-width: 190px !important;
+}

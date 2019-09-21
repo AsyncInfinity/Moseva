@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  display: grid;
+  width: 210mm;
+  height: 297mm;
+  border: 2.5px solid #26c6da;
+  margin: auto;
+  grid-template-rows: 16% 0.5% 11.5% 61.5% 0.5% 10%;
+}
+#border {
+  width: 95%;
+  margin-left: 1.1em;
+  background-color: #0097a7;
+}
+#d21:nth-child(1) input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 25em;
+  outline: none;
+}
+#d21:nth-child(2) input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 4em;
+  outline: none;
+}
+#d21:nth-child(3) input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 8em;
+  outline: none;
+}
+
+#d1 {
+  border: none;
+}
+#d1 h1 {
+  text-align: center;
+  color: #0097a7;
+}
+#doc_detail {
+  padding-left: 2em;
+  display: inline-block;
+}
+#d1 p:nth-child(2),
+p:nth-child(3) {
+  line-height: 2px;
+}
+strong {
+  font-size: 20px;
+}
+#hospital_detail {
+  float: right;
+  padding-right: 2.5em;
+  display: inline-block;
+}
+#d2 {
+  padding-left: 1.1em;
+  padding-top: 1.5em;
+}
+#d22:nth-child(1) input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 30em;
+  outline: none;
+}
+#d22:nth-child(2) input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 4.5em;
+  outline: none;
+}
+#d22:nth-child(3) input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 9em;
+  outline: none;
+}
+#d21 {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+#d22 {
+  display: inline-block;
+}
+
+#qrcode {
+  display: inline-block;
+  border-right: 2px solid black;
+  width: 50%;
+}
+
+#doc_sign {
+  height: 30px;
+  float: right;
+}
+
+#doc_sign h3 {
+  display: inline-block;
+  padding-right: 12em;
+  padding-top: 0.5em;
+}
+input {
+  padding-left: 10px;
+}

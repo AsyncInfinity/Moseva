@@ -1,2 +1,0 @@
-# Moseva
-Created with CodeSandbox
